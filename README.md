@@ -8,7 +8,7 @@ This project uses **Python 3.13.3**.
 
 ## How to Run
 
-Change the current directory to /Testing_Dates
+Change the current directory to .../Testing_Dates
 To execute the test cases and save the results in the `results` folder, use the following command in your terminal:
 
 `robot -d results tests/`
