@@ -36,3 +36,8 @@ This will run the test case in the `tests` directory and generate the output fil
 
 - Python 3.10+
 - Robot Framework
+
+## Notes
+
+The automation run headless, to improve the code performance, but it can be changed removing the parameter `options=add_argument("--headless")` from the date_generator_page.robot file.
+Doing this change will be possible to see the entire actions of the test script.
