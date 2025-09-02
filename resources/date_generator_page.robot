@@ -64,5 +64,5 @@ Verify Resulting Dates Are Within Range
         ${date_part}=       Set Variable    ${date_parts[0]}
         ${result_date_obj}=    Convert Date    ${date_part}    result_format=%Y-%m-%d        
         ${status}=    Evaluate    $start_date_obj <= $result_date_obj <= $end_date_obj
-        Should Be True    ${status}    msg=A data ${result_date_obj} está fora do intervalo esperado.
+        Should Be True    ${status}    msg=The date ${result_date_obj} is out of the expected range.
     END
